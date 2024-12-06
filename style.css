@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a3f80;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ac9305;
+}
+
+/* Estilo para el formulario */
+form {
+    background: #5a5f7b;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    color: #ac9305;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para los cuadros de datos registrados */
+.container {
+    background-color: #c94f4f;
+    padding: 20px;
+    max-width: 600px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(225, 4, 4, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    color: #5a5f7b;
+}
+
+.data-row {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #5a5f7b;
+}
+
+.data-row strong {
+    color: #ac9305;
+}
+
+.data-row span {
+    color: #333;
+}
+
+/* Estilo para el mensaje de éxito o error */
+.mensaje {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mensaje.exito {
+    color: #388e3c;
+}
+
+.mensaje.error {
+    color: #d32f2f;
+}
+
+/* Estilo para el enlace o botón de "Nuevo registro" */
+a, button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #b41919;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+a:hover, button:hover {
+    background-color: #ac9305;
+}
+
